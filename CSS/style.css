@@ -16,6 +16,17 @@ body {
 
 h1 {
   color: #fff;
+  font: 72px;
+}
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 36px;
+  }
 }
 h1 span {
   color: #555;
@@ -36,31 +47,7 @@ h1 span {
   box-shadow: 0px 17px 46px rgba(169, 80, 196, 0.121944);
 }
 
-.list {
-  margin-top: 16px;
-  border: 1px solid red;
-  padding: 16px;
-}
-.list li {
-  padding: 8px;
-  list-style: none;
-  border: 1px solid blue;
-}
-.list li a {
-  text-decoration: none;
-  color: #fff;
-}
-.list li a:hover {
-  color: pink;
-}
-.list li a::after {
-  content: "";
-}
-.list li a::before {
-  content: "";
-}
-
 p {
   color: #555;
-  border: 2px solid purple;
+  font-size: 24px;
 }/*# sourceMappingURL=style.css.map */
